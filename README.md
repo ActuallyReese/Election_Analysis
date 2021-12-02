@@ -27,6 +27,34 @@ The analysis of the election show that:
 - The winner of the election was:
   - Diana DeGette, who received "73.8%" of the vote and "272,892" number of votes.
     
-## Callenge Overview
+## Challenge Overview
+
+### Purpose
+
+The purpose of this election audit analysis was to determine the winner of a local congressional election in Colorado.
+
+### Results
+- How many votes were cast in this congressional election?
+
+A total of 369,711 votes were cast in this congressional election.
+
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+![countyvotes.png](https://github.com/Athenus/Election_Analysis/blob/main/Resources/countyvotes.png)
+
+- Which county had the largest number of votes?
+
+Denver county had the largest number of votes.
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+![candidatevotes.png](https://github.com/Athenus/Election_Analysis/blob/main/Resources/candidatevotes.png)
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+The winner of the election was Diana DeGette. She won with 272,892 votes, or 73.8% of the total votes.
 
 # Challenge Summary
+
+With a few modifications, this code can be used for any election. The CSV file for other elections would need to be formatted the same, with "County" being in the second column and "Candidate" being in the third column. The number of candidates or counties should not interfere with the code. The code could be changed to include states instead of counties if the election is on a larger scale by replacing "County" with "State". Likewise, if the election is on a smaller scale, such as a county election, "County" could be replaced by "City".
+
